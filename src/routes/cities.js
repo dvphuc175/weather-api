@@ -4,7 +4,7 @@ const router = express.Router()
 router.get('/weather/cities', async (req, res) => {
     try {
     const reponse = await fetch('https://vnexpress.net/microservice/weather') //Gọi lên sv thông qua API để lấy dữ liệu
-    const data = await reponse.json() // Chuyển về dạng json
+    const data = await reponse.json() 
     const cities = Object.keys(data) // Tên thành phố là 1 key
     res.json(cities)
     } catch (error) {
