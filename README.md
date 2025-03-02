@@ -48,4 +48,4 @@ In the project directory, you can run:
 
 Runs the app in the development mode.
 
-Open http://localhost:3000 to view it in the browser.
+Open http://localhost:3000/weather/cities to see the list of cities available in the system, and visit http://localhost:3000/weather?city={city-name} (replace {city-name} with cities like Hà Nội, Hải Phòng, etc.) to view the weather information for that specific city.
